@@ -1,0 +1,88 @@
+*{
+    font-family: AssociateSans,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-w-300{
+    width: 350px !important;
+    height: 350px !important;
+}
+.row{
+    width: 100%;
+}
+.text-light-dark{
+    color: #808090;
+}
+.slide_right:hover {
+    box-shadow: inset 110vh 0 0 0 #289fdd, inset -100vh 0 0 0 #604bee;
+
+  }
+  .button_slide {
+    color: #FFF;
+    border-radius: 0px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #356f95;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    height: 50px;
+  }
+  .w-410{
+    width: 410px;
+  }
+  .footer{
+    width: 100%;
+    background-color: #0e2e42;
+  }
+  h1{
+    font-family: Hind,sans-serif !important;
+  }
+  @media screen  and (max-width:776px){
+    .w-410{
+        width: 90%;
+        margin: 20px 0 ;
+    }
+  }
+  .inputbg-color{
+    background-color: #1a3d53 !important;
+    color: #ebfffa !important;
+    height: 60px;
+  }
+  .btn-color{
+    background-color: #264e68 !important;
+    color: #ebfffa !important;
+  }
+  .chenge-palaceholder::placeholder{
+    color: #ebfffa !important;
+  }
+  hr {
+    border-color: #42647a; /* Change this to the color you want, e.g., red (#ff0000) */
+  }
+  .footer-items{
+    color: #adcfdc;
+    display: block;
+    padding: 5px 0;
+  }
+    .footer-header{
+        color: white;
+    }
+    .hover-box-shadow:hover{
+        box-shadow: 0 0 10px white ;
+    }
+    .bg-brand{
+        background-color: #1a3d53;
+    }
+    .w-h-40{
+        width: 45px;
+        height: 43px;
+    }
+    .hover-underline:hover{
+        text-decoration: underline !important;
+    }
