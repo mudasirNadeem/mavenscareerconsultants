@@ -44,10 +44,24 @@
   h1{
     font-family: Hind,sans-serif !important;
   }
-  @media screen  and (max-width:776px){
+  @media screen  and (max-width:767px){
     .w-410{
         width: 90%;
         margin: 20px 0 ;
+    }
+    .h-vh-150{
+        height: 150vh !important;
+    }
+    .h-vh-129{
+        height: 129vh !important;
+    }
+  }
+  @media screen  and (max-width:992px){
+        .h-vh-130{
+           height: 100% !important;
+        }
+    .h-vh-129{
+        height: 100vh;
     }
   }
   .inputbg-color{
