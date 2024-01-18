@@ -1,164 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="SignUp.css">
-    <link rel="stylesheet" href="/mavenscareerconsultants/Authentication/Global.css">
-      <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="SignUp.css">
+  <link rel="stylesheet" href="/mavenscareerconsultants/Authentication/Global.css">
+  <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+  <script src="../../Shared/navigation.js"></script>
+  <link rel="stylesheet" href="../../Shared/navigation.css">
 </head>
+
 <body>
   <div class="container-fulid ">
-  <div class="row w-100 h-100 m-0">
-    <div class="col-lg-6 h-vh-100 h-100 d-none d-lg-block d-md-block m-0 p-0 col-12 h-100" >
-      <div class="d-flex h-100 align-items-center justify-content-center" style="background-color: #f58634;">
-        <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 500px; height: 500px; background-color: #f69145; box-shadow: #f58634;">
-          <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 450px; height: 450px; background-color: #fd974a; box-shadow: #f69145;">
-          <img src="https://frontend.mavenscareerconsultants.com/assets/images/rregister-img.png" alt="" class="rounded-circle h-w-300">
+    <div class="nav-wrapper">
+      <div class="navbar wf-section">
+        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+          role="banner" class="navbar-container shadow-three w-nav">
+          <div class="container common-container">
+            <div class="navbar-wrapper">
+              <ul role="list" class="nav-menu-two w-list-unstyled">
+                <li>
+                  <a href="index.html" class="navbar-brand w-nav-brand"><img src="images/grroo.png" loading="lazy"
+                      alt="Grrowy Logo" class="image-3"></a>
+                </li>
+                <li class="hide-mobile">
+                  <div class="nav-divider"></div>
+                </li>
+                <li class="hide-mobile">
+                  <div data-hover="false" data-delay="0" class="nav-dropdown w-dropdown">
+                    <div class="nav-dropdown-toggle w-dropdown-toggle">
+                      <div class="nav-dropdown-icon w-icon-dropdown-toggle "></div>
+                      <div class="text-block ">Services</div>
+                    </div>
+                    <nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list">
+                      <a href="services/ppc.html" class="nav-dropdown-link w-dropdown-link ">Pay Per Click</a>
+                      <a href="services/seo.html" class="nav-dropdown-link w-dropdown-link ">Search Engine
+                        Optimization</a>
+                      <a href="services/smo.html" class="nav-dropdown-link w-dropdown-link ">Social Media
+                        Optimization</a>
+                      <a href="services/smm.html" class="nav-dropdown-link w-dropdown-link ">Social Media Marketing</a>
+                      <a href="services/email-marketing.html" class="nav-dropdown-link w-dropdown-link ">E-Mail
+                        Marketing</a>
+                      <a href="services/aso.html" class="nav-dropdown-link w-dropdown-link ">App Store Optimization</a>
+                      <a href="services/orm.html" class="nav-dropdown-link w-dropdown-link ">Online Reputation
+                        Management</a>
+                      <a href="services/content-creation.html" class="nav-dropdown-link w-dropdown-link ">Content
+                        Creation</a>
+                      <a href="services/design.html" class="nav-dropdown-link w-dropdown-link ">Design</a>
+                    </nav>
+                  </div>
+                  <!-- <a href="https://grrowy.com/services" class="nav-link ">Services</a> -->
+                </li>
+                <li class="hide-mobile">
+                  <div data-hover="false" data-delay="0" class="nav-dropdown w-dropdown">
+                    <div class="nav-dropdown-toggle w-dropdown-toggle">
+                      <div class="nav-dropdown-icon w-icon-dropdown-toggle "></div>
+                      <div class="text-block ">Resources</div>
+                    </div>
+                    <nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list">
+                      <a href="blog.html" class="nav-dropdown-link w-dropdown-link ">Blogs</a>
+                      <a href="process.html" class="nav-dropdown-link w-dropdown-link ">Process</a>
+                      <a href="case-study.html" class="nav-dropdown-link w-dropdown-link ">Case Study</a>
+                    </nav>
+                  </div>
+                </li>
+                <li class="hide-mobile">
+                  <a href="about.html" class="nav-link ">About Us</a>
+                </li>
+                <li class="hide-mobile">
+                  <a href="career.html" class="nav-link ">Careers</a>
+                </li>
+              </ul>
+              <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+                <ul role="list" class="nav-menu-two w-list-unstyled">
+                  <li data-w-id="6693a9fd-8767-1791-d8b3-3ef1e6deade6" class="mobile-margin-top-10">
+                    <a data-w-id="6693a9fd-8767-1791-d8b3-3ef1e6deade7" href="#" class="button-primary w-button">
+                      <span class="btn-label">Let&#x27;s Talk</span>
+                      <div class="background-fill-color"></div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div data-w-id="6693a9fd-8767-1791-d8b3-3ef1e6deade9" id="mobile-toogle-btn" class="menu-btn mobile-show"
+                style="display:none;">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <div class="menu-wrapper mobile-show" style="display:none;">
+                <div class="contact-animate">
+                  <div class="bg-layer layer-1" id="layer1"></div>
+                  <div class="bg-layer layer-2"></div>
+                  <div class="bg-layer layer-3"></div>
+                </div>
+                <div class="mobile-menu-wrap">
+                  <ul role="list" class="mobile-menu w-list-unstyled">
+                    <li class="mobile-list">
+                      <!-- <a href="https://grrowy.com/services" class="nav-link mob-menu ">Services</a> -->
+                      <div data-hover="false" data-delay="0" class="nav-dropdown w-dropdown">
+                        <div class="nav-dropdown-toggle mob-menu w-dropdown-toggle">
+                          <div class="nav-dropdown-icon w-icon-dropdown-toggle "></div>
+                          <div class="text-block mob-menu ">Services</div>
+                        </div>
+                        <nav class="nav-dropdown-list shadow-three mobile-shadow-hide mob-menu w-dropdown-list">
+                          <a href="services/ppc.html" class="nav-dropdown-link w-dropdown-link ">Pay Per Click</a>
+                          <a href="services/seo.html" class="nav-dropdown-link w-dropdown-link ">Search Engine
+                            Optimization</a>
+                          <a href="services/smo.html" class="nav-dropdown-link w-dropdown-link ">Social Media
+                            Optimization</a>
+                          <a href="services/smm.html" class="nav-dropdown-link w-dropdown-link ">Social Media
+                            Marketing</a>
+                          <a href="services/email-marketing.html" class="nav-dropdown-link w-dropdown-link ">E-Mail
+                            Marketing</a>
+                          <a href="services/aso.html" class="nav-dropdown-link w-dropdown-link ">App Store
+                            Optimization</a>
+                          <a href="services/orm.html" class="nav-dropdown-link w-dropdown-link ">Online Reputation
+                            Management</a>
+                          <a href="services/content-creation.html" class="nav-dropdown-link w-dropdown-link ">Content
+                            Creation</a>
+                          <a href="services/design.html" class="nav-dropdown-link w-dropdown-link ">Design</a>
+
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="list-item mobile-list">
+                      <div data-hover="false" data-delay="0" class="nav-dropdown w-dropdown">
+                        <div class="nav-dropdown-toggle mob-menu w-dropdown-toggle">
+                          <div class="nav-dropdown-icon w-icon-dropdown-toggle "></div>
+                          <div class="text-block mob-menu ">Resources</div>
+                        </div>
+                        <nav class="nav-dropdown-list shadow-three mobile-shadow-hide mob-menu w-dropdown-list">
+                          <a href="blog.html" class="nav-dropdown-link w-dropdown-link ">Blogs</a>
+                          <a href="process.html" class="nav-dropdown-link w-dropdown-link ">Process</a>
+                          <a href="case-study.html" class="nav-dropdown-link w-dropdown-link ">Case Study</a>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="mobile-list">
+                      <a href="about.html" class="nav-link mob-menu ">About Us</a>
+                    </li>
+                    <li class="mobile-list">
+                      <a href="career.html" class="nav-link mob-menu ">Careers</a>
+                    </li>
+                  </ul>
+                  <ul role="list" class="list">
+                    <li class="list-item-2 mobile-list">
+                      <a data-w-id="6693a9fd-8767-1791-d8b3-3ef1e6deae0c" href="#"
+                        class="button-primary mobile-btn w-button">Let&#x27;s Talk</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="row w-100 h-100 m-0">
+      <div class="col-lg-6 h-vh-100 h-100 d-none d-lg-block d-md-block m-0 p-0 col-12 h-100">
+        <div class="d-flex h-100 align-items-center justify-content-center" style="background-color: #f58634;">
+          <div class="rounded-circle d-flex align-items-center justify-content-center"
+            style="width: 500px; height: 500px; background-color: #f69145; box-shadow: #f58634;">
+            <div class="rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 450px; height: 450px; background-color: #fd974a; box-shadow: #f69145;">
+              <img src="https://frontend.mavenscareerconsultants.com/assets/images/rregister-img.png" alt=""
+                class="rounded-circle h-w-300">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 h-vh-129 pt-5 pt-lg-0 col-12 px-2 px-lg-5">
+        <div class="card h-100 d-flex flex-column justify-content-center border-0">
+          <div class="card-image text-center">
+            <img src="https://frontend.mavenscareerconsultants.com/assets/images/logo.png" alt="" class="w-410 sm-90">
+          </div>
+
+          <div class="row mt-3 mx-0">
+            <div class="col-lg-12">
+              <h3 class="mt-3 mb-0 ">Sign up for a account today!</h3>
+              <h6 class="m-0 mb-3 my-2  text-light-dark">Ready to join the Mavens community?</h6>
+            </div>
+            <div class="col-lg-12 col-12">
+              <form class="row g-3 mx-0">
+                <div class=" col-lg-6 p-0 pe-lg-2">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">First Name</label>
+                  </div>
+                </div>
+                <div class="col-lg-6 p-0 ps-lg-2">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Last Name</label>
+                  </div>
+                </div>
+                <div class=" col-12 p-0 ">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 p-0 pe-lg-2">
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6 p-0 ps-lg-2">
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Conform Password</label>
+                  </div>
+                </div>
+                <div class="col-12 p-0">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      I agree to Mavens <a href="#" class="text-decoration-none">terms and conditions</a> and <a
+                        href="#" class="text-decoration-none">privacy policy</a>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 p-0">
+                  <div class="form-floating">
+                    <button class="button_slide slide_right btn-primary btn border-0">Register </button>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <p>Already have a Mavens account? <a href="#" class="text-decoration-none">Login here</a></p>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-lg-6 h-vh-129 pt-5 pt-lg-0 col-12 px-2 px-lg-5">
-      <div class="card h-100 d-flex flex-column justify-content-center border-0"> 
-        <div class="card-image text-center">
-          <img src="https://frontend.mavenscareerconsultants.com/assets/images/logo.png" alt="" class="w-410 sm-90">
+    <div class="footer mt-3 p-5 px-4 px-lg-5">
+      <div class="row m-0 ">
+        <div class="col-lg-6 col-12 py-3 p-0">
+          <h1 class="text-white">Still You Need Our <span style="color:#f58634;">Support ?</span></h1>
+          <p class="m-0 text-white">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
         </div>
-       
-        <div class="row mt-3 mx-0">
-          <div class="col-lg-12">
-            <h3 class="mt-3 mb-0 ">Sign up for a account today!</h3>
-            <h6 class="m-0 mb-3 my-2  text-light-dark">Ready to join the Mavens community?</h6>
-          </div>
-          <div class="col-lg-12 col-12">
-            <form class="row g-3 mx-0">
-              <div class=" col-lg-6 p-0 pe-lg-2">
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">First Name</label>
-                </div>
-              </div>
-              <div class="col-lg-6 p-0 ps-lg-2">
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Last Name</label>
-                </div>
-              </div>
-              <div class=" col-12 p-0 ">
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email address</label>
-                </div>
-              </div>
-              <div class="col-lg-6 col-12 p-0 pe-lg-2">
-                <div class="form-floating">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6 p-0 ps-lg-2">
-                <div class="form-floating">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Conform Password</label>
-                </div>
-              </div>
-              <div class="col-12 p-0">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    I agree to Mavens <a href="#" class="text-decoration-none">terms and conditions</a> and <a href="#" class="text-decoration-none">privacy policy</a>
-                  </label>
-                </div>
-              </div>
-              <div class="col-12 p-0">
-                <div class="form-floating">
-                  <button  class="button_slide slide_right btn-primary btn border-0">Register </button>
-                </div>
-              </div>
-              <div class="text-center">
-                <p>Already have a Mavens account? <a href="#" class="text-decoration-none">Login here</a></p>
-              </div>
-            </form>
+        <div class="col-lg-6 col-12 p-0 ">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control inputbg-color border-0 chenge-palaceholder"
+              placeholder="Enter your email here" aria-label="Username" aria-describedby="basic-addon1">
+            <button class="input-group-text btn btn-secondary btn-color  border-0" id="basic-addon1">Subscribe
+              Now</button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer mt-3 p-5 px-4 px-lg-5">
-    <div class="row m-0 ">
-      <div class="col-lg-6 col-12 py-3 p-0">
-        <h1 class="text-white">Still You Need Our <span style="color:#f58634;">Support ?</span></h1>
-        <p class="m-0 text-white">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+      <div class="py-5">
+        <hr>
       </div>
-      <div class="col-lg-6 col-12 p-0 ">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control inputbg-color border-0 chenge-palaceholder" placeholder="Enter your email here" aria-label="Username" aria-describedby="basic-addon1">
-          <button class="input-group-text btn btn-secondary btn-color  border-0" id="basic-addon1">Subscribe Now</button>
+      <div class="row">
+        <div class="col-lg-3 pb-3 py-lg-0 py-md-0 pt-0 col-md-6 col-12">
+          <h3 class="text-white">Company</h3>
+          <p class="footer-items">We have vast experience to train for IELTS , PTE, Spoken English and Interview
+            Preparation to students. We are a professional team of highly motivated and dedicated professionals with a
+            strong commitment to strengthening the ability of english speaking communicative competence to achieve their
+            goals.</p>
+          <div class="d-flex">
+            <a href="#"
+              class="w-h-40 me-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#"
+              class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#"
+              class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
+              <i class="fa-brands fa-google"></i> +
+            </a>
+            <a href="#"
+              class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#"
+              class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 py-3 py-lg-0 col-md-6 py-md-0 col-12">
+          <h3 class="footer-header">Usefull Links</h3>
+          <a href="#" class="text-decoration-none footer-items">Home</a>
+          <a href="#" class="text-decoration-none footer-items">About</a>
+          <a href="#" class="text-decoration-none footer-items">Blogs</a>
+          <a href="#" class="text-decoration-none footer-items">Sitemap</a>
+        </div>
+        <div class="col-lg-3 py-3 py-lg-0 col-md-6 col-12">
+          <h3 class="footer-header">Services</h3>
+          <a href="#" class="text-decoration-none footer-items">IELTS Courses</a>
+          <a href="#" class="text-decoration-none footer-items">PTE Courses</a>
+          <a href="#" class="text-decoration-none footer-items">Spoken English</a>
+        </div>
+        <div class="col-lg-3 py-3 py-lg-0 col-md-6 col-12">
+          <h3 class="footer-header">Need Help ?</h3>
+          <a href="#" class="text-decoration-none footer-items">Call us Directly
+          </a>
+          <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-phone"></i>
+            +91-1234567890</a>
+          <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-headphones"></i> Need
+            Support ?</a>
+          <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-envelope"></i>
+            support@mavenslearning.com</a>
         </div>
       </div>
-    </div>
-    <div class="py-5">
       <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 pb-3 py-lg-0 py-md-0 pt-0 col-md-6 col-12">
-        <h3 class="text-white">Company</h3>
-        <p class="footer-items">We have vast experience to train for IELTS , PTE, Spoken English and Interview Preparation to students. We are a professional team of highly motivated and dedicated professionals with a strong commitment to strengthening the ability of english speaking communicative competence to achieve their goals.</p>
-        <div class="d-flex">
-          <a href="#" class="w-h-40 me-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a href="#" class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-          <a href="#" class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
-            <i class="fa-brands fa-google"></i> +
-          </a>
-          <a href="#" class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a href="#" class="w-h-40 mx-2 text-decoration-none rounded-circle bg-brand d-flex align-items-center justify-content-center hover-box-shadow">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
+      <div class="d-flex justify-content-between">
+        <div style="color: #adcfdc;">
+          © Mavens Learning
         </div>
-      </div>
-      <div class="col-lg-3 py-3 py-lg-0 col-md-6 py-md-0 col-12">
-        <h3 class="footer-header">Usefull Links</h3>
-        <a href="#" class="text-decoration-none footer-items">Home</a>
-        <a href="#" class="text-decoration-none footer-items">About</a>
-        <a href="#" class="text-decoration-none footer-items">Blogs</a>
-        <a href="#" class="text-decoration-none footer-items">Sitemap</a>
-      </div>
-      <div class="col-lg-3 py-3 py-lg-0 col-md-6 col-12">
-        <h3 class="footer-header">Services</h3>
-        <a href="#" class="text-decoration-none footer-items">IELTS Courses</a>
-        <a href="#" class="text-decoration-none footer-items">PTE Courses</a>
-        <a href="#" class="text-decoration-none footer-items">Spoken English</a>
-      </div>
-      <div class="col-lg-3 py-3 py-lg-0 col-md-6 col-12">
-        <h3 class="footer-header">Need Help ?</h3>
-        <a href="#" class="text-decoration-none footer-items">Call us Directly
-        </a>
-        <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-phone"></i> +91-1234567890</a>
-        <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-headphones"></i> Need Support ?</a>
-        <a href="#" class="text-decoration-none footer-items"> <i class="fa-solid pe-2 fa-envelope"></i> support@mavenslearning.com</a>
-      </div>
-    </div>
-    <hr>
-    <div class="d-flex justify-content-between">
-      <div style="color: #adcfdc;">
-        © Mavens Learning
-      </div>
-      <div>
-        <a href="#" class="text-decoration-none pe-3 hover-underline" style="color: #adcfdc;">Terms of Use
+        <div>
+          <a href="#" class="text-decoration-none pe-3 hover-underline" style="color: #adcfdc;">Terms of Use
           </a>
           <a href="#" class="text-decoration-none hover-underline" style="color: #adcfdc;">Privacy Policy</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </body>
+
 </html>
