@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var layer3 = document.querySelector(".layer-3");
   var mobileMenuWrap = document.querySelector(".mobile-menu-wrap");
   var contact_Animate = document.querySelector(".contact-animate");
+  var menuWrapper = document.querySelector(".menu-wrapper");
   // Get all elements with class 'mobile-list'
 var mobileListElements = document.querySelectorAll('.mobile-list');
 
@@ -84,6 +85,7 @@ mobileListElements.forEach(function (mobileListElement) {
       line3.style.willChange = "auto";
       layer1.style.willChange = "auto";
     }, 700);
+    toogleDisplay('none','flex',menuWrapper,'display 0s');
     AnimateToogleButton();
     AnimateNavLinks();
 
@@ -130,17 +132,10 @@ mobileListElements.forEach(function (mobileListElement) {
         0,
         1,
         mobileMenuWrap,
-        !clicked ? "opacity 5s, display 5s" : "opacity 0s, display 0s",
+        !clicked ? "opacity 1.5s" : "opacity 0s",
         !clicked ? "1s" : "0s",
-        'opacity,display'
+        'opacity'
       );
-      if(clicked){
-        mobileMenuWrap.style.display='none';
-      }
-      else{
-        mobileMenuWrap.style.display='block';
-
-      }
 
 
       // toogleDisplay('none','block',mobileMenuWrap,'display 0s',!clicked?'1.3s': '0s');
@@ -157,6 +152,8 @@ mobileListElements.forEach(function (mobileListElement) {
       }
     }
   });
+  navlink.click();
+
 });
 function toogleTransform(
   initialTransform,
@@ -193,6 +190,7 @@ function toogleOpacity(
   } else {
     element.style.opacity = clickedOpacity;
   }
+
 }
 function toogleDisplay(
   intial,
@@ -211,4 +209,7 @@ function toogleDisplay(
   } else {
     element.style.transform = clicked;
   }
+ 
 }
+
+var shwoNavContent = document.getElementById('shwo-nav-content')

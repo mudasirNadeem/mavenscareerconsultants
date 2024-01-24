@@ -3245,7 +3245,7 @@ body .sweet-alert .sa-icon.sa-error .sa-line {
     padding: 0 20px;
     width: 100%;
   }
-
+}
 @media screen and (max-width: 575px) {
   .w-lightbox-frame {
     transform: scale(0.9);
@@ -3347,7 +3347,7 @@ body .sweet-alert .sa-icon.sa-error .sa-line {
     height: 150vh;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .md-hide {
     display: flex !important;
   }
